@@ -4,7 +4,7 @@ import io
 import os
 
 # Load template
-TEMPLATE_PATH = "A_digital_image_of_a_blank_trading_card_frame_disp.png"
+TEMPLATE_PATH = "card_template.png"
 template = Image.open(TEMPLATE_PATH).convert("RGBA")
 
 # Fonts (adjust as needed for your system or upload custom fonts)
